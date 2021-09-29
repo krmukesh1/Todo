@@ -3,8 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+input#input {
+  border: navajowhite;
+  padding: 15px 0;
+}
+input#input:focus-visible {
+  outline: none !important;
+}
+/* form:focus-visible {
+  outline: none !important;
+} */
+ul {
+  border-top: 1px solid #222;
+}
 li {
   cursor: pointer;
+  margin: 10px 0;
+  list-style: none;
+}
+small {
+  margin: 10px 0;
 }
 .completed {
   text-decoration: line-through;
